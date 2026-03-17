@@ -403,25 +403,43 @@ def _select_skill(root: Path, assessment: dict, state: dict[str, str]) -> tuple[
     """Returns (skill_name, skill_text). Phase-aware."""
     phase = _get_phase(state)
     weakest = assessment.get("weakest_dimension", "")
-    business = state.get("BUSINESS.md", "")
-    audience = state.get("AUDIENCE.md", "")
+    scores = assessment.get("dimension_scores", {})
+    niche = state.get("NICHE.md", "")
+    persona = state.get("PERSONA.md", "")
 
     if phase == 2:
-        # Phase 2: rotate between execute and research based on weakest dimension
-        if weakest in ("pipeline-quality", "outreach-quality", "conversion-progress"):
-            skill_name = "execute"
-        elif weakest in ("market-fit", "channel-viability"):
-            skill_name = "research"
+        if weakest in ("publishing-readiness",):
+            skill_name = "draft"
         else:
-            skill_name = "execute"  # Default to execution in Phase 2
+            skill_name = "draft"
     else:
-        # Phase 1: research or strategize
-        if _content_is_empty(business) or _content_is_empty(audience):
+        # Phase 1 skill routing for influencer agent
+        niche_score = scores.get("niche-clarity", 0)
+        persona_score = scores.get("persona-coherence", 0)
+        content_score = scores.get("content-quality", 0)
+        diff_score = scores.get("differentiation", 0)
+
+        if niche_score < 0.50:
+            # Still figuring out what to say — keep researching
             skill_name = "research"
-        elif weakest in ("market-fit", "channel-viability"):
-            skill_name = "research"
-        else:
+        elif persona_score < 0.50:
+            # Niche forming but no persona yet — identify who this person is
+            skill_name = "identify"
+        elif persona_score < 0.80:
+            # Persona exists but needs sharpening — build the brand
+            skill_name = "brand"
+        elif content_score < 0.50:
+            # Persona solid, now ideate content
+            skill_name = "ideate"
+        elif content_score < 0.80:
+            # Ideas exist, write full drafts
+            skill_name = "draft"
+        elif weakest in ("platform-fit",):
             skill_name = "strategize"
+        elif weakest in ("differentiation", "niche-clarity"):
+            skill_name = "identify"
+        else:
+            skill_name = "draft"
 
     skill_path = root / "skills" / skill_name / "SKILL.md"
     skill_text = _read(skill_path, f"Make one meaningful change. Focus on: {skill_name}.")
