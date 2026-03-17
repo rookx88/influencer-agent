@@ -126,8 +126,9 @@ def _call_api(
         }
         if system:
             body["system"] = system
-        # JSON mode via tool use for Anthropic
-        if json_mode:
+        # JSON mode: OAuth tokens don't support tool use — use text JSON instead
+        # For non-oauth Anthropic, tool use works fine
+        if json_mode and provider != "anthropic-oauth":
             body["tools"] = [{
                 "name": "score_business",
                 "description": "Return a structured business assessment score",
@@ -151,7 +152,7 @@ def _call_api(
             req = urllib.request.Request(url, data=json.dumps(body).encode(), headers=headers, method="POST")
             with urllib.request.urlopen(req, timeout=300) as resp:
                 data = json.loads(resp.read())
-        # Extract text — handle tool_use response block
+        # Extract text — handle tool_use response block or plain text JSON
         if json_mode:
             for block in data.get("content", []):
                 if block.get("type") == "tool_use":
