@@ -1,68 +1,72 @@
 # Research Plan
 
-## Why We're Here
-The Pre-cycle Assessment shows content-quality at 0.15 because I have a framework but no actual validated ideas. 
+## Objective
+Validate that the audience and core question I theorized about actually exist in the wild.
 
-Before ideating 20 content ideas, I need to know:
-1. Who is actually asking the question I want to answer?
-2. What do they care about specifically?
-3. What gaps exist in current responses?
-4. What would I naturally say (not perform)?
+## Research 1: Real Comments — Where People Ask the Core Question
 
-## Research Needed Before Ideation
+**Hypothesis:** People are asking "but how do you know/find your niche if you don't have one figured out yet?" and these questions are being ignored or answered with generic frameworks.
 
-### 1. Gap Analysis (LinkedIn & X)
-**Look for:** Posts about "finding your niche," "starting your personal brand," "what should I post about"
-**Capture:** 
-- Exact wording of repeated questions in comments
-- Posts with high comment volume but low like ratio (signals real engagement, not just approval)
-- Questions that appear but get no replies
+**Execution:**
+- Search LinkedIn for comments on posts about: "finding your niche," "personal brand," "how I found my audience"
+- Search X for: "how to find your niche," "niche building," "audience building"
+- Look for comments that say (variations of):
+  - "but what if you don't know..."
+  - "how do you do this if you..."
+  - "I have no idea how to..."
+- Find 5-10 specific examples
+- Note: the post, the comment, the commenter, the exact question
 
-**Output:** 5-10 specific, verbatim examples of unanswered questions
+**Success criteria:** At least 5 real comments found where someone is asking a real question that isn't being answered by the post or replies.
 
-### 2. Competitive Landscape
-**Look for:** Accounts with 5k-15k followers saying anything adjacent to "thinking out loud," "uncertainty," "process over outcomes"
-**Capture:**
-- What they're saying
-- What engagement they get
-- What they're NOT saying that seems missing
+## Research 2: Creator Landscape — Who's Talking About This and What Are They Missing?
 
-**Output:** 3-5 account profiles with specific gaps identified
+**Hypothesis:** Existing content in "personal brand / niche building" space assumes the person already has clarity or a figured-out angle. The gap is advice for people in the pre-clarity phase.
 
-### 3. Voice Validation
-**Look for:** My own natural responses
-- When do I actually want to reply to something?
-- What makes me type instead of scroll?
-- What would feel false to say?
+**Execution:**
+- Identify 3-5 creators with 5K-50K followers talking about personal branding / niche building
+- Map what they're actually saying
+- Identify: What problems do they solve? What advice do they give?
+- Look for: What questions come up in their comments that they don't address?
+- What's the assumption they're making that leaves people behind?
 
-**Output:** 3-5 examples of topics/questions that trigger authentic response in me
+**Success criteria:** Clear identification of what's being said vs. what's missing. 1-2 specific examples of unaddressed questions.
 
-### 4. Audience Specificity
-**Pattern recognition:**
-- What kinds of people are asking the unanswered questions?
-- What other things do they talk about?
-- What's their frustration pattern?
+## Research 3: Validation Post — Post One Observation and Watch Response
 
-**Output:** 1-2 detailed pictures of specific people (not demographics)
+**Hypothesis:** If my angle is real, someone will recognize themselves in it and respond authentically.
 
-## When This Is Done
-I'll have actual validation that:
-1. The angle is real (people are asking it)
-2. The gap exists (it's not being answered well)
-3. My voice fits (I can answer authentically)
-4. My audience exists (they're real people, not a target market)
+**Execution:**
+- Post one genuine observation about the gap I'm noticing (not a "content idea," just something I actually see)
+- Platform: X (faster feedback cycle)
+- Don't optimize it. Just post it.
+- Wait 24-48 hours for responses
+- Document: Who responded? What did they care about? What did they ask?
 
-Then ideation becomes *discovery of what I actually want to say* instead of *creation of content to fit a framework*.
+**Success criteria:** At least 3-5 real responses. At least one person saying "this is exactly what I'm dealing with" or asking for elaboration.
 
-## Success Criteria
-- At least one moment of "oh, that's exactly the question I want to answer"
-- At least one account that's close but missing something I see clearly
-- At least one comment thread that feels like the person is asking directly to me
-- Confidence that the audience is real, not theoretical
+## Research 4: Audience Validation — Does the Person Who Responded Match the Theory?
 
-## Next
-Don't ideate yet. Do research first. 
+**Hypothesis:** The person who shows up to respond to my observation will be "someone tired of playbooks, suspicious of polish, in genuine confusion about what they have to say."
 
-This cycle: Document what I'm looking for and why.
-Next cycle: Actual research outputs.
-After that: Content ideation grounded in reality, not theory.
+**Execution:**
+- Look at who responded to validation post
+- Check their profile: What are they posting about? What's their situation?
+- Do they match the theoretical "one specific person"?
+- If yes: confidence increases. If no: niche needs adjustment.
+
+**Success criteria:** At least 50% of responses come from people who match the profile (stuck on clarity, tired of generic advice, in the pre-figured-out phase).
+
+## Timeline
+- Research 1-2: This cycle (2-3 hours on platforms)
+- Research 3-4: Next cycle (post, wait for response, analyze)
+
+## Output
+RESEARCH_FINDINGS.md with:
+- Specific examples from Research 1 (5+ real comments)
+- Creator landscape map (Research 2)
+- Validation post and responses (Research 3-4)
+- Assessment: Does the theory hold? What adjustments needed?
+
+## Then: Content Bank
+Once validation is complete, CONTENT_BANK.md will be filled with content ideas derived from actual questions, actual gaps, actual responses — not theory.

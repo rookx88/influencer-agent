@@ -35,6 +35,14 @@ Every draft should be:
 - Engaging (hooks attention, holds it)
 
 ## Output
-Update CONTENT_BANK.md with full drafts (status: DRAFT).
-Propose top 3-5 drafts in ACTIONS.md for approval (status: PENDING).
-Document reasoning in JOURNAL.md.
+You MUST write to CONTENT_BANK.md using the WRITE_FILE protocol. This is the most important output of this cycle.
+
+WRITE_FILE: state/CONTENT_BANK.md
+```
+[full updated CONTENT_BANK.md content with all new drafts]
+```
+
+Then write to ACTIONS.md proposing top 3 posts for approval.
+Then write a short entry to JOURNAL.md.
+
+If you do not write to CONTENT_BANK.md, this cycle produces nothing useful.
