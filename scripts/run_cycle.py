@@ -425,14 +425,11 @@ def _select_skill(root: Path, assessment: dict, state: dict[str, str]) -> tuple[
         elif persona_score < 0.50:
             # Niche forming but no persona yet — identify who this person is
             skill_name = "identify"
-        elif persona_score < 0.80:
+        elif persona_score < 0.75:
             # Persona exists but needs sharpening — build the brand
             skill_name = "brand"
-        elif content_score < 0.50:
-            # Persona solid, now ideate content
-            skill_name = "ideate"
-        elif content_score < 0.80:
-            # Ideas exist, write full drafts
+        elif content_score < 0.70:
+            # Persona solid — skip ideate, go straight to drafting real posts
             skill_name = "draft"
         elif weakest in ("platform-fit",):
             skill_name = "strategize"
