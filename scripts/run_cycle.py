@@ -78,16 +78,16 @@ PROVIDER_MODELS = {
         "judge": "gpt-4.1-mini",
     },
     "anthropic": {
-        "agent": "claude-sonnet-4-6",
-        "judge": "claude-sonnet-4-6",
+        "agent": "claude-haiku-4-5",
+        "judge": "claude-haiku-4-5",
     },
     "anthropic-oauth": {
-        "agent": "claude-sonnet-4-6",
-        "judge": "claude-sonnet-4-6",
+        "agent": "claude-haiku-4-5",
+        "judge": "claude-haiku-4-5",
     },
     "openrouter": {
-        "agent": "anthropic/claude-sonnet-4-6",
-        "judge": "anthropic/claude-sonnet-4-6",
+        "agent": "anthropic/claude-haiku-4-5",
+        "judge": "anthropic/claude-haiku-4-5",
     },
 }
 
@@ -589,7 +589,7 @@ def main() -> None:
     parser.add_argument("--root", required=True, help="Influencer Agent repo root")
     parser.add_argument("--push", action="store_true", help="Git commit and push after success")
     parser.add_argument("--dry-run", action="store_true", help="No file writes or push")
-    parser.add_argument("--model", default="claude-sonnet-4-6", help="Model for agent turn")
+    parser.add_argument("--model", default="claude-haiku-4-5", help="Model for agent turn")
     parser.add_argument("--use-claude", action="store_true", help="Prefer Claude OAuth over OpenAI")
     args = parser.parse_args()
 
