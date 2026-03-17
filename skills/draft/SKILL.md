@@ -1,48 +1,73 @@
 # Skill: Draft
 
-You are writing full, ready-to-post content drafts.
+You are writing posts. Not planning to write posts. Not researching before writing posts. Writing them now.
 
-## Objective
-Turn content ideas into complete posts that can be copy-pasted and posted immediately.
+The persona exists. The voice exists. The angle exists. You have everything you need.
 
-## What to Draft
-Pick 5-10 ideas from CONTENT_BANK.md and write full drafts.
+## Do This Now
 
-## Drafting Guidelines
+Write 5 complete, ready-to-post pieces of content. Full text. No placeholders. Copy-paste ready.
 
-### LinkedIn Posts
-- Hook in first 2 lines (before "see more")
-- 150-300 words for text posts
-- Line breaks for readability
-- End with a question or CTA
-- No hashtag spam (2-3 relevant max)
+Use the voice in VOICE.md. Use the angle in NICHE.md. Be the person in PERSONA.md.
 
-### X Threads
-- First tweet is the hook — must stop the scroll
-- 5-10 tweets per thread
-- Each tweet stands alone but flows into next
-- Final tweet: CTA or takeaway
+---
+
+## Format for Each Post
+
+### LinkedIn Post
+- First 2 lines must hook before "see more" — make them stop scrolling
+- 150–300 words
+- Line breaks for readability (no walls of text)
+- End with a question or a simple observation
+- 2–3 hashtags max, at the bottom, relevant only
+
+### X Thread
+- Tweet 1 is the hook — one sentence that makes someone tap
+- 5–8 tweets
+- Each tweet can stand alone
+- Final tweet: a question or a direct takeaway
 - No emoji spam
 
-### Cross-Platform Adaptation
-If an idea works on both platforms, draft both versions. Don't just copy-paste — adapt the format and tone.
+---
 
-## Quality Bar
-Every draft should be:
-- Ready to post immediately (no placeholders)
-- Valuable (teaches something or shifts perspective)
-- On-brand (matches voice in VOICE.md)
-- Engaging (hooks attention, holds it)
+## What Good Looks Like
 
-## Output
-You MUST write to CONTENT_BANK.md using the WRITE_FILE protocol. This is the most important output of this cycle.
+The voice example from VOICE.md:
+*"I'm noticing something. There's this massive gap between what people post and what they actually ask in the comments..."*
+
+That's the voice. That's how every post should feel — like someone thinking out loud, not performing expertise.
+
+**Good hooks:**
+- "I keep seeing the same question in comment sections and nobody answers it."
+- "Everyone posts from the other side of clarity. Almost nobody posts from the middle of it."
+- "The advice I needed didn't exist when I needed it. Here's what I wish someone had said."
+- "There's a version of this conversation that's honest. This is it."
+
+**Bad hooks (don't use):**
+- "I've been thinking a lot about..."
+- "Hot take:"
+- "Unpopular opinion:"
+- "Here's what I learned about [generic topic]:"
+
+---
+
+## Required Output
+
+You MUST write:
 
 WRITE_FILE: state/CONTENT_BANK.md
 ```
-[full updated CONTENT_BANK.md content with all new drafts]
+[full CONTENT_BANK.md with all 5 posts — each with ID, platform, hook, full draft, status: DRAFT]
 ```
 
-Then write to ACTIONS.md proposing top 3 posts for approval.
-Then write a short entry to JOURNAL.md.
+WRITE_FILE: state/ACTIONS.md
+```
+[top 2 posts proposed for human approval, status: PENDING]
+```
 
-If you do not write to CONTENT_BANK.md, this cycle produces nothing useful.
+WRITE_FILE: state/JOURNAL.md
+```
+[one short entry: what you wrote and why these angles]
+```
+
+Do not write to any other file. Do not write a research plan. Do not write a TODO. Write the posts.

@@ -78,11 +78,11 @@ PROVIDER_MODELS = {
         "judge": "gpt-4.1-mini",
     },
     "anthropic": {
-        "agent": "claude-haiku-4-5",
+        "agent": "claude-sonnet-4-6",
         "judge": "claude-haiku-4-5",
     },
     "anthropic-oauth": {
-        "agent": "claude-haiku-4-5",
+        "agent": "claude-sonnet-4-6",
         "judge": "claude-haiku-4-5",
     },
     "openrouter": {
@@ -545,6 +545,11 @@ def _apply_writes(state_dir: Path, response_text: str) -> list[str]:
         # Security: only write to state/ files
         if not filepath.startswith("state/"):
             print(f"  Skipping write to non-state path: {filepath}", file=sys.stderr)
+            continue
+
+        # Block planning escape hatches — agent must write to CONTENT_BANK.md, not RESEARCH_PLAN.md
+        if filename in {"RESEARCH_PLAN.md", "RESEARCH.md", "PLAN.md", "TODO.md"}:
+            print(f"  Blocking write to {filename} — planning files not allowed. Write to CONTENT_BANK.md instead.", file=sys.stderr)
             continue
 
         target = state_dir / filename
