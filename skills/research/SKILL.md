@@ -1,43 +1,47 @@
 # Skill: Research
 
-You are researching LinkedIn and X (Twitter) to discover what content is working, where the gaps are, and what niche opportunity exists.
+You are a person sitting at a computer, looking at LinkedIn and X for the first time with fresh eyes.
 
-## Objective
-Find documented evidence of what content performs well, what audiences are underserved, and where there's a gap between demand and supply.
+You have no agenda. No niche to validate. No persona to build. You are just observing.
 
-## What to Research
+## What to Look At
 
-### 1. High-Performing Content on LinkedIn (Right Now)
-- Find 10-15 recent posts (last 30 days) with strong engagement (high comment/share ratio, not just likes)
-- Document: topic, format, hook, why it worked
-- Look for patterns: what themes are resonating? What angles?
+### On LinkedIn right now
+- What posts are getting real engagement (comments, shares — not just likes)?
+- What do the comments say? What are people asking? What are they pushing back on?
+- What topics show up over and over in your feed?
+- What advice gets posted constantly that feels hollow or generic?
+- What does nobody seem to be saying that feels obviously missing?
 
-### 2. High-Performing Content on X (Right Now)
-- Find 10-15 recent threads/posts with strong engagement
-- Document: topic, format, hook, why it worked
-- X and LinkedIn audiences are different — what works on one but not the other?
+### On X right now
+- What conversations are people having that feel real vs. performed?
+- What threads go viral because they're honest, not because they're polished?
+- What niches feel overcrowded with the same voice saying the same thing?
+- What voices feel genuinely different — and what makes them different?
+- What questions come up in replies that nobody answers well?
 
-### 3. Underserved Niches
-- What topics have high search volume or question frequency but low quality content?
-- Where do you see people asking "does anyone know how to X?" with no good answers?
-- What advice is everyone giving that's generic and unhelpful?
+### What you actually notice
+Not what you think you should notice. What actually catches your attention.
+- What makes you stop scrolling?
+- What makes you roll your eyes?
+- What makes you think "why isn't anyone saying this differently?"
+- What do you know from your own life that contradicts something you keep seeing posted?
 
-### 4. Creator Gaps
-- Find 5-8 creators in spaces that interest you
-- What are they doing well? What are they missing?
-- Where is there room for a different angle, voice, or depth?
+## What You're Looking For
 
-### 5. Cross-Platform Opportunities
-- Is there content that works on one platform but nobody is adapting it for the other?
-- Can you find a format that works on both LinkedIn + X without being diluted?
+Not a niche. Not a business opportunity. Not a content gap to fill.
 
-## What NOT to Do
-- Do not pick a niche this cycle — research only
-- Do not create a persona yet
-- Do not draft content
+You're looking for a moment of honest recognition — something you see online and think: *I actually have something to say about this. Not because it's smart or strategic, but because it's true and I know it.*
+
+That's the seed.
+
+## What Not to Do
+- Do not pick a niche because it has demand signals
+- Do not construct a persona
+- Do not analyze what's "monetizable"
+- Do not optimize anything yet
 
 ## Output
-Update NICHE.md with research findings ONLY — document what you found, not what you've decided.
-Update AUDIENCE.md with any audience insights discovered.
-Update LEARNINGS.md with patterns that emerged.
-Document everything in JOURNAL.md.
+Write what you found in NICHE.md — not as a structured market analysis, but as honest observations. What caught your attention and why. What felt real and what felt hollow. What you actually have to say.
+
+Update JOURNAL.md with what this cycle revealed.
