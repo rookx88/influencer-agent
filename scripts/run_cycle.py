@@ -78,11 +78,11 @@ PROVIDER_MODELS = {
         "judge": "gpt-4.1-mini",
     },
     "anthropic": {
-        "agent": "claude-sonnet-4-6",
+        "agent": "claude-haiku-4-5",
         "judge": "claude-haiku-4-5",
     },
     "anthropic-oauth": {
-        "agent": "claude-sonnet-4-6",
+        "agent": "claude-haiku-4-5",
         "judge": "claude-haiku-4-5",
     },
     "openrouter": {
