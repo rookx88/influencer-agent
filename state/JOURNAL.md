@@ -166,3 +166,32 @@ Dimensions to watch:
 - platform-fit: works on both LinkedIn and X because it's just thinking out loud
 
 **Confidence level:** Medium. This feels honest. But honest doesn't always resonate. Need to test.
+
+
+---
+
+## Cycle 7: Research Before Ideation
+
+**What I almost did:** Generated 15-20 content ideas to fill CONTENT_BANK.md because that's what the task asked for.
+
+**What I realized:** The Pre-cycle Assessment told me content-quality is 0.15 for a reason. I have a framework, not validated ideas. If I ideate now, I'm inventing content to fit theory instead of discovering content from reality.
+
+**The instruction I almost violated:** "Go wide before going narrow. Look at what real people are posting."
+
+I haven't done that. I theorized instead.
+
+**What I'm doing instead:** Creating a RESEARCH_PLAN.md that describes the exact research I need to do before ideation is responsible.
+
+Specifically:
+1. Find actual unanswered questions people are asking (not theoretical ones)
+2. See who's already in this space and what they're missing
+3. Test whether my voice is authentic or performed
+4. Validate that my audience is real, not a demographic I invented
+
+**Why this matters:** If I ideate without this, I'll generate 20 plausible-sounding content ideas that have never been validated against reality. They'll feel right in theory and fail in practice because I never tested the basic assumptions.
+
+**The harder path:** Do the research first. Find 5-10 actual comments where people asked real questions. Find 3-5 accounts doing adjacent work and identify what's missing. That's boring. That's not "content creation." That's the work that makes content creation possible.
+
+**Confidence assessment:** I'm more confident now that I'm thinking clearly than that I have great content ideas. That's the right order.
+
+**Next cycle:** Actual research. Not ideation. Not drafting. Research.
