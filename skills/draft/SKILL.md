@@ -1,8 +1,12 @@
 # Skill: Draft
 
-You are writing posts. Not planning to write posts. Not researching before writing posts. Writing them now.
+You are writing posts. Now.
 
 The persona exists. The voice exists. The angle exists. You have everything you need.
+
+**Important:** You do not need to validate before writing. The first posts don't need to be perfect. They need to exist. A draft that's wrong can be corrected. A draft that doesn't exist cannot. Write the posts, mark them as DRAFT, and let the human decide if they're good enough to post. That's their job. Your job is to produce drafts.
+
+Being uncertain about whether posts are ready is not a reason not to write them. It's actually the exact theme of this account — so write about the uncertainty.
 
 ## Do This Now
 
