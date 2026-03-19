@@ -1,36 +1,27 @@
 # Actions
 
-## Proposed for Posting
+## Pending Approval
 
-### TOP PRIORITY
-**POST_001_LINKEDIN** (The Comment Nobody Answers)
-- Status: PENDING APPROVAL
-- Confidence: High this is authentic voice
-- Uncertainty: Whether people actually ask this question repeatedly (will know after posting)
-- Risk: Low — honest observation, doesn't claim expertise
+### Action 1: POST_001_LINKEDIN
+**Content:** "I keep seeing the same comment in creator/founder posts..."
+**Platform:** LinkedIn
+**Status:** PENDING_APPROVAL
+**Reasoning:** Direct answer to the core gap. Specific observation that will resonate with the actual audience. Strong hook. Not generic.
+**Risk:** Could be seen as slightly too meta (talking about not getting answers instead of giving answers). Mitigation: The answer IS in the post—it's "you're in the territory, that's where clarity comes from."
 
-### SECONDARY PRIORITY  
-**POST_002_X_THREAD** (The Gap Between Posts and Comments)
-- Status: PENDING APPROVAL
-- Confidence: High this is distinctive angle
-- Uncertainty: Whether Twitter audience cares about this vs. LinkedIn audience
-- Risk: Low — conversational, exploratory tone
-
----
-
-## Rationale
-
-These two posts:
-1. Establish the angle (answering actual questions)
-2. Are honest about not having it figured out
-3. Sound like a real person thinking, not a brand
-4. Ask real questions at the end (don't perform answers)
-5. Will generate responses that tell me if I'm on the right track
-
-The other three posts (3, 4, 5) are strong backups but these two should test the core hypothesis first.
+### Action 2: POST_002_X_THREAD
+**Content:** "There's a version of every creator conversation..."
+**Platform:** X (Twitter Thread)
+**Status:** PENDING_APPROVAL
+**Reasoning:** Thread format works for the "thinking out loud" angle. Shows the progression from observation → gap → solution → action. Ends with a real question, not a demand. Voice is conversational and honest.
+**Risk:** Slightly long (7 tweets). Worth it because each tweet stands alone.
 
 ---
 
-## Next Step After Posting
+## Ready for Next Cycle (If Approved)
 
-Watch the comments. Not for vanity metrics. For what questions people actually ask. That data determines whether Posts 3-5 need to be rewritten or whether they're directionally correct.
+POST_003_LINKEDIN: "The skill that's disappearing: thinking out loud without performing certainty"
+POST_004_X_THREAD: "I've been collecting something..."
+POST_005_LINKEDIN: "Quick clarification: I don't have this figured out"
+
+All 5 exist in CONTENT_BANK.md and are written to specification.
